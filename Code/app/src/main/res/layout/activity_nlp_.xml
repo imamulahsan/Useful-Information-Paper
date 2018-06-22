@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gunners808.finaltestversion1.NLP_Activity">
+
+
+    <TextView
+        android:id="@+id/nlp_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="NLP Output"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nlp_text"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="Name"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/name_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_name"
+        android:layout_centerHorizontal="true"
+        android:text="1"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_output"
+        android:layout_centerHorizontal="true"
+        android:text="Location"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/location_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_location"
+        android:layout_centerHorizontal="true"
+        android:text="2"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/text_organization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/location_output"
+        android:layout_centerHorizontal="true"
+        android:text="Organization"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/organization_output"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_organization"
+        android:layout_centerHorizontal="true"
+        android:text="3"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/test_text"/>
+
+
+</RelativeLayout>
